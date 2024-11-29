@@ -1,0 +1,202 @@
+{
+    "procedure": {
+        "TECHFLOW-1": {
+            "techFlowDesc": "technics flow 1",
+            "techFlowPredependency": [
+
+            ],
+            "technics": {
+                "TECH-1": {
+                    "type": "technics 1",
+                    "techDesc": "technics 1",
+                    "techPredependency": [
+
+                    ],
+                    "params": {
+                        "": ""
+                    }
+                },
+                "TECH-2": {
+                    "type": "technics 2",
+                    "techDesc": "technics 2",
+                    "techPredependency": [
+                        "TECH-1"
+                    ],
+                    "params": {
+                        "": ""
+                    }
+                },
+                "TECH-3": {
+                    "type": "technics 3",
+                    "techDesc": "technics 3",
+                    "techPredependency": [
+                        "TECH-2"
+                    ],
+                    "params": {
+                        "": ""
+                    }
+                }
+            },
+            "type": "technics flow 1"
+        },
+        "TECHFLOW-2": {
+            "techFlowDesc": "technics flow 2",
+            "techFlowPredependency": [
+                "TECHFLOW-1"
+            ],
+            "technics": {
+                "TECH-4": {
+                    "type": "technics 4",
+                    "techDesc": "technics 4",
+                    "techPredependency": [
+
+                    ],
+                    "params": {
+                        "": ""
+                    }
+                },
+                "TECH-5": {
+                    "type": "technics 5",
+                    "techDesc": "technics 5",
+                    "techPredependency": [
+
+                    ],
+                    "params": {
+                        "": ""
+                    }
+                },
+                "TECH-6": {
+                    "type": "technics 6",
+                    "techDesc": "technics 6",
+                    "techPredependency": [
+                        "TECH-4",
+                        "TECH-5"
+                    ],
+                    "params": {
+                        "": ""
+                    }
+                }
+            },
+            "type": "technics flow 2"
+        },
+        "TECHFLOW-3": {
+            "techFlowDesc": "technics flow 3",
+            "techFlowPredependency": [
+                "TECHFLOW-2"
+            ],
+            "technics": {
+                "TECH-7": {
+                    "type": "technics 7",
+                    "techDesc": "technics 6",
+                    "techPredependency": [
+
+                    ],
+                    "params": {
+                        "": ""
+                    }
+                },
+                "TECH-8": {
+                    "type": "technics 8",
+                    "techDesc": "technics 8",
+                    "techPredependency": [
+
+                    ],
+                    "params": {
+                        "": ""
+                    }
+                },
+                "TECH-9": {
+                    "type": "technics 9",
+                    "techDesc": "technics 9",
+                    "techPredependency": [
+                        "TECH-7"
+                    ],
+                    "params": {
+                        "": ""
+                    }
+                }
+            },
+            "type": "technics flow 3"
+        },
+        "TECHFLOW-4": {
+            "techFlowDesc": "technics flow 4",
+            "techFlowPredependency": [
+                "TECHFLOW-2"
+            ],
+            "technics": {
+                "TECH-10": {
+                    "type": "technics 10",
+                    "techDesc": "technics 10",
+                    "techPredependency": [
+
+                    ],
+                    "params": {
+                        "": ""
+                    }
+                },
+                "TECH-11": {
+                    "type": "technics 11",
+                    "techDesc": "technics 11",
+                    "techPredependency": [
+                        "TECH-10"
+                    ],
+                    "params": {
+                        "": ""
+                    }
+                },
+                "TECH-12": {
+                    "type": "technics 12",
+                    "techDesc": "technics 12",
+                    "techPredependency": [
+                        "TECH-11"
+                    ],
+                    "params": {
+                        "": ""
+                    }
+                }
+            },
+            "type": "technics flow 4"
+        },
+        "TECHFLOW-5": {
+            "techFlowDesc": "technics flow 5",
+            "techFlowPredependency": [
+                "TECHFLOW-3",
+                "TECHFLOW-4"
+            ],
+            "technics": {
+                "TECH-13": {
+                    "type": "technics 13",
+                    "techDesc": "technics 13",
+                    "techPredependency": [
+
+                    ],
+                    "params": {
+                        "": ""
+                    }
+                },
+                "TECH-14": {
+                    "type": "technics 14",
+                    "techDesc": "technics 14",
+                    "techPredependency": [
+
+                    ],
+                    "params": {
+                        "": ""
+                    }
+                },
+                "TECH-15": {
+                    "type": "technics 15",
+                    "techDesc": "technics 15",
+                    "techPredependency": [
+                        "TECH-13",
+                        "TECH-14"
+                    ],
+                    "params": {
+                        "": ""
+                    }
+                }
+            },
+            "type": "technics flow 5"
+        }
+    }
+}

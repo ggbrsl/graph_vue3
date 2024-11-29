@@ -1,9 +1,12 @@
 import { createStore } from "vuex";
+import mutations from '@/store/mutations'
 
 export default createStore({
-  state: {},
+  state: {
+    imageBlob: []
+  },
   getters: {},
-  mutations: {},
+  mutations,
   actions: {},
   modules: {},
 });
